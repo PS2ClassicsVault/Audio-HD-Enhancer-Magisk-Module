@@ -1,0 +1,7 @@
+id=AudioHDEnchancer
+name=Audio HD Enhancer
+version=v1.0
+versionCode=1
+author=Cyberdev
+description=Improve audio output to 320Kbs systemless for both Internal Speakers & Bluetooth (Android 10+)
+support=https://github.com/PS2ClassicsVault/Audio-HD-Enhancer-Magisk-Module/issues
