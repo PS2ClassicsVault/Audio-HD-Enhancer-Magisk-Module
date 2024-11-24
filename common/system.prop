@@ -13,7 +13,9 @@ af.resample=320000
 af.resampler.quality=320
 dev.pm.dyn_samplingrate=1
 audio.deep_buffer.media=false 
-vendor.audio.deep_buffer.media=false 
+vendor.audio.deep_buffer.media=false
+audio.deep_buffer.media=true
+audio.offload.buffer.size.kb=64
 vendor.audio.feature.deepbuffer_as_primary.enable=false 
 qc.audio.deep_buffer.media=false 
 ro.qc.audio.deep_buffer.media=false 
@@ -61,6 +63,9 @@ persist.vendor.audio.delta.refresh=true
 ro.qc.sdk.audio.fluencetype=none
 persist.audio.fluence.voicerec=true
 persist.audio.fluence.speaker=false
+persist.audio.fluence.mode=endfire
+persist.audio.vr.enable=true
+persist.audio.handset.mic=digital
 
 # Bluetooth configuration
 persist.bt.enableAptXHD=true
