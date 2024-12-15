@@ -7,10 +7,29 @@
 ##########################
 
 # Audio configuration
-ro.audio.samplerate=320000
-ro.audio.pcm.samplerate=320000
-af.resample=320000
-af.resampler.quality=320
+audio.safemedia.bypass=true
+audio.safemedia.force=false
+audio.safemedia.csd.force=false
+ro.audio.ignore_effects=true
+ro.audio.spatializer_enabled=true
+ro.vendor.audio.dolby.dax.support=false
+vendor.audio.dolby.control.support=false
+vendor.audio.usb.perio=2000
+vendor.audio.usb.out.period_us=2000
+vendor.audio.usb.out.period_count=2
+vendor.audio_hal.period_size=120
+vendor.audio_hal.period_multiplier=1
+vendor.audio.adm.buffering.ms=2
+persist.bluetooth.sbc_hd_higher_bitrate=1
+ro.audio.resampler.psd.enable_at_samplerate=44100
+ro.audio.resampler.psd.stopband=179
+ro.audio.resampler.psd.halflength=408
+ro.audio.resampler.psd.tbwcheat=99
+ro.audio.samplerate=192000
+ro.audio.pcm.samplerate=19200
+persist.audio.pcm.channels=2
+af.resample=96000
+af.resampler.quality=100
 dev.pm.dyn_samplingrate=1
 audio.deep_buffer.media=false 
 vendor.audio.deep_buffer.media=false
