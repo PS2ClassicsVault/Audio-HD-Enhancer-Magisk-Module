@@ -1,13 +1,13 @@
 # Audio HD Enhancer Magisk Module
 
 ### Version:
-v1.1
+v1.2
 
 ### Last Updated:
-11/24/24
+12/15/24
 
 ## Description
-This improves the audio quality to 320kbs for both Internal speakers & Bluetooth devices.
+This improves the audio quality to 192kbs for both internal speakers & bluetooth devices.
 
 ## Installation 
 1. Flash the module in Magisk
