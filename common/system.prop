@@ -7,13 +7,17 @@
 ##########################
 
 # Audio configuration
+audio.offload.video=true
+audio.offload.buffer.size.kb=64
+av.offload.enable=true
+use.voice.path.for.pcm.voip=true
+audio.offload.gapless.enabled=true
+audio.deep_buffer.media=true
 audio.safemedia.bypass=true
 audio.safemedia.force=false
 audio.safemedia.csd.force=false
 ro.audio.ignore_effects=true
 ro.audio.spatializer_enabled=true
-ro.vendor.audio.dolby.dax.support=false
-vendor.audio.dolby.control.support=false
 vendor.audio.usb.perio=2000
 vendor.audio.usb.out.period_us=2000
 vendor.audio.usb.out.period_count=2
@@ -33,18 +37,17 @@ af.resampler.quality=100
 dev.pm.dyn_samplingrate=1
 audio.deep_buffer.media=false 
 vendor.audio.deep_buffer.media=false
-audio.deep_buffer.media=true
-audio.offload.buffer.size.kb=64
+audio.deep_buffer.media=false
 vendor.audio.feature.deepbuffer_as_primary.enable=false 
 qc.audio.deep_buffer.media=false 
 ro.qc.audio.deep_buffer.media=false 
 persist.vendor.audio.deep_buffer.media=false
 vendor.audio.flac.sw.decoder.24bit=true 
 flac.sw.decoder.24bit.support=true 
-vendor.audio.aac.sw.decoder.24bit=true 
+vendor.audio.aac.sw.decoder.24bit=true
+vendor.audio.aac.sw.encoder.24bit=true
 vendor.audio.use.sw.alac.decoder=true 
-vendor.audio.flac.sw.encoder.24bit=true 
-vendor.audio.aac.sw.encoder.24bit=true 
+vendor.audio.flac.sw.encoder.24bit=true  
 vendor.audio.use.sw.ape.decoder=true 
 vendor.audio.tunnel.encode=true 
 tunnel.audio.encode=true 
@@ -85,6 +88,11 @@ persist.audio.fluence.speaker=false
 persist.audio.fluence.mode=endfire
 persist.audio.vr.enable=true
 persist.audio.handset.mic=digital
+ro.ril.enable.amr.wideband=1
+af.thread.throttle=0
+audio.playback.mch.downsample=false
+vendor.audio.playback.mch.downsample=false
+persist.vendor.audio.playback.mch.downsample=false
 
 # Bluetooth configuration
 persist.bt.enableAptXHD=true
