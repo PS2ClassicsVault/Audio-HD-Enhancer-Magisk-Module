@@ -28,7 +28,7 @@ REPLACE="
 print_modname() {
   ui_print "*******************************"
   ui_print "       Audio HD Enchancer      "
-  ui_print "      By Cyberdev| Ver: 1.3    " 
+  ui_print "      By Cyberdev| Ver: 1.4    " 
   ui_print "*******************************"
 }
 

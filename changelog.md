@@ -3,7 +3,11 @@ https://www.paypal.me/ps2cv
 
 If you encounter bug or issue please submit a new issue ticket!
 
-# v1.3
+## v1.4
+- Reduced audio sample rate to 48KHz.
+- Improved Bluetooth audio stability.
+
+## v1.3
 - Possibly fixed an issue where users using Dolby would crash there system on boot.
 - Disabled audio deep buffer to improve audio clarity.
 - Improved audio processing performance.
