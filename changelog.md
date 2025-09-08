@@ -3,6 +3,10 @@ https://www.paypal.me/ps2cv
 
 If you encounter bug or issue please submit a new issue ticket!
 
+## v1.5
+- Fixed an issue with resampling not properly being configured from previous update.
+- Removed duplicate audio tweak.
+
 ## v1.4
 - Reduced audio sample rate to 48KHz.
 - Improved Bluetooth audio stability.
