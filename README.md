@@ -1,10 +1,10 @@
 # Audio HD Enhancer Magisk Module
 
 ### Version:
-v1.5
+v1.6
 
 ### Last Updated:
-09/08/25
+09/19/25
 
 ## Description
 This improves the audio quality for both internal speakers & Bluetooth devices.

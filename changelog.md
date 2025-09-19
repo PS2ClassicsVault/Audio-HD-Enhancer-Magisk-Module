@@ -3,6 +3,11 @@ https://www.paypal.me/ps2cv
 
 If you encounter bug or issue please submit a new issue ticket!
 
+## v1.6
+- Improved audio quality to 192kbps
+- Improved audio buffer
+- Added buffering for video content.
+
 ## v1.5
 - Fixed an issue with resampling not properly being configured from previous update.
 - Removed duplicate audio tweak.
