@@ -1,7 +1,7 @@
 id=AudioHDEnchancer
 name=Audio HD Enhancer
-version=v1.5
-versionCode=6
+version=v1.6
+versionCode=7
 author=Cyberdev
 description=Improves audio quality systemlessly for both internal speakers & bluetooth (Android 10+) - Not KSU/APatch Compatible!
 support=https://github.com/PS2ClassicsVault/Audio-HD-Enhancer-Magisk-Module/issues
